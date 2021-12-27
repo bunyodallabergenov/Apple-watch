@@ -1,0 +1,230 @@
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding-left: 125px;
+  padding-right: 125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+
+/* HEADER */
+.site-header {
+  padding: 30px;
+}
+
+.site-header-container {
+ display: flex;
+ align-items: center;
+}
+
+.logo-img {
+
+}
+
+.sitenav {
+ display: flex;
+ align-items: center;
+ margin-left: 402px;
+}
+
+.sitenav-list {
+ display: flex;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+ .sitenav-item {
+  margin-left: 30px;
+}
+
+.sitenav-link {
+ color: #333;
+ text-decoration: none;
+ font-size: 15px;
+ font-weight: 400;
+
+}
+
+.support-link {
+ margin-left: 40px;
+ text-decoration: none;
+ padding: 6px;
+ color: #666;
+ border-bottom: 2px solid #333;
+}
+
+/*  MAIN  */
+.site-main {
+  margin-top: 92px;
+}
+.main-section {
+  display: flex;
+  border-bottom:1px solid #333 ;
+}
+.main-div {
+  padding-top: 70px;
+}
+.main-section-title {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+
+.main-section-text {
+  width: 450px;
+  padding-left: 40px;
+  border-left: 1px solid #777;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #777;
+  margin-bottom: 50px;
+}
+
+.main-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border:1px solid #ea635c;
+  background-color: #ea635c;
+  color: #fff;
+}
+
+.intro-img {
+  margin-left: 245px;
+}
+
+.info-section {
+  display: flex;
+  margin-top: 68px;
+}
+
+.info-div {
+  margin-right: 80px;
+}
+
+.info-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.info-text {
+  width: 280px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333;
+}
+
+.info-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ea635c;
+  margin-left: 15px;
+}
+
+
+.buy-section {
+  display: flex;
+  margin-top: 150px;
+}
+.buy-div {
+
+}
+
+.buy-title {
+  margin-top: 110px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  width: 380px;
+}
+.buy-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 450px;
+  color: #777;
+  padding-left: 20px;
+  border-left: 2px solid #777;
+  margin-bottom: 40px;
+}
+
+.rectangle-div {
+  display: flex;
+}
+
+.more-div {
+  display: flex;
+  align-items: center;
+}
+
+.img-rec:not(:nth-child(1)) {
+  margin-left: 8px;
+}
+
+.buy-img {
+  margin-left: 110px;
+}
+
+
+.end-section {
+  background-image: url(/img/runners\ 1.jpg);
+  height: 800px;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.end-div {
+  padding-top: 220px;
+  margin-left: auto;
+}
+
+.end-title {
+  width: 490px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color:#fff;
+}
+
+.end-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 450px;
+  color: #fff;
+  padding-left: 35px;
+  border-left: 4px solid #fff;
+  margin-bottom: 60px;
+ 
+}
